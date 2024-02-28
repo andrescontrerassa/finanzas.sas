@@ -1,0 +1,70 @@
+<html>
+
+    <head>
+        <!-- Título únicamente que aparece en la barrita del navegador arriba-->
+        <title> Lionel Andres Messi Cuccittini </title>
+
+        <link rel="stylesheet" href="css/style.css"> 
+        <!-- Link se utiliza para vincular otro archivo a este propiamente, en caso de querer vincular los estilos u otra logica, por ejemplo de JSCRIPT-->
+
+    </head>
+
+
+    <body>
+        <header>
+            <h1>Messi</h1>
+            <h2>Etcetera</h2>
+        </header>
+
+
+        <!--Section sirve para dividir la información en secciones o "parrafos"-->
+        <section>
+            <!--h1 sirve para colocar títulos en grande, varia dependiendo el                  
+          
+          número de h1,2,3,4-->
+            <h1>Biografia de Lionel Andres Messi Cuccitini</h1>
+            <img class="bmw" src=imagenes/images.jpg>
+         
+            <!--p sirve para colocar información en parrafos-->
+            <p>
+                Lionel Messi es considerado el jugador más prestigioso de la historia del deporte rey, el fútbol. Su historia <br> es conmovedoras e interesantes remotandose a el año 1977.
+
+
+
+
+            </p>
+
+            <!--ul (li) sirve para crear listas-->
+            <ul>
+                <li>tengo hambre</li>
+                <li>tengo hambre2</li>
+                <li>tengo hambre3</li>
+            </ul>
+
+        </section>
+     <button>hola</button>
+
+        <section>
+
+
+
+
+        </section>
+
+
+
+        <section>
+
+
+
+        </section>
+
+
+
+    </body>
+
+
+
+
+
+</html>
