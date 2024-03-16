@@ -1,70 +1,145 @@
+<!DOCTYPE html>
 <html>
 
-    <head>
-        <!-- Título únicamente que aparece en la barrita del navegador arriba-->
-        <title> Lionel Andres Messi Cuccittini </title>
-
-        <link rel="stylesheet" href="css/style.css"> 
-        <!-- Link se utiliza para vincular otro archivo a este propiamente, en caso de querer vincular los estilos u otra logica, por ejemplo de JSCRIPT-->
-
-    </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
 
 
-    <body>
-        <header>
-            <h1>Messi</h1>
-            <h2>Etcetera</h2>
-        </header>
-
-
-        <!--Section sirve para dividir la información en secciones o "parrafos"-->
-        <section>
-            <!--h1 sirve para colocar títulos en grande, varia dependiendo el                  
-          
-          número de h1,2,3,4-->
-            <h1>Biografia de Lionel Andres Messi Cuccitini</h1>
-            <img class="bmw" src=imagenes/images.jpg>
-         
-            <!--p sirve para colocar información en parrafos-->
-            <p>
-                Lionel Messi es considerado el jugador más prestigioso de la historia del deporte rey, el fútbol. Su historia <br> es conmovedoras e interesantes remotandose a el año 1977.
-
-
-
-
+<body>
+  <nav>
+    <div class="nav-logo"><img src="logo.png" alt=""></div>
+    <ul class="nav-links">
+      <li class="link"><a href=>mi perfil</a></li>
+      <li class="link"><a href=>trueques</a></li>
+    </ul>
+    <button class="btn"><a href="#contact">Buscar</a></button>
+  </nav><br><br><br><br><br><br><br><br>
+  <div class="container">
+   <h4>Referencia de proyecto</h4><br>
+   trueques consiste en realizar un intercambio de bienes o objetos 
+   sea facil y comun, logrando asi darle provecho a las cosas que tenemos pero no usamos
+  </div>
+  <div class="container">
+      <h4>Objeyivos generales</h4>
+      <li>dar uso a lo que ya no usamos</li>
+      <li>normalizar el uso del trueque</li>
+      <li>facilidad de negosiacion</li>
+    </li>
+  </div>
+  
+  <div class="container">
+      <div class="centrar">
+        <h1>Ultimas novedades <br>
+        </p>
+        <div class="action-btns">
+          <button class="btn">chats</button>
+          <button class="btn">detalles</button>
+        </div> 
+      </div>
+    <header>
+      <div class="trip-grid">
+        <div class="trip-card">
+          <img src="assets/trip-1.jpg">
+          <div class="trip-details">
+            <p>Cambio bicicleta por electrodomestico</p>
+              <div class="price"><span>De:</span> suba ricon</div>
+              <button class="book-now">Chatea</button>
+            </div>
+          </div>
+        <div class="trip-card">
+          <img src="assets/trip-2.jpg">
+          <div class="trip-details">
+            <p>Cambio tv 49 puladas por bicicleta</p>
+              <div class="price"><span>De:</span>Bosa estacion</div>
+              <button class="book-now">Chatea</button>
+            
+          </div>
+        </div>
+        <div class="trip-card">
+          <img src="assets/trip-3.jpg">
+          <div class="trip-details">
+            <p>celular computador de mesa por celular</p>
+              <div class="price"><span>De:</span>Tunal</div>
+              <button class="book-now">Chatea</button>
+            
+          </div>
+        </div>
+        <div class="trip-card">
+          <img src="assets/trip-3.jpg">
+          <div class="trip-details">
+            <p>carro por un local</p>
+              <div class="price"><span>De:</span>Bogota galerias</div>
+              <button class="book-now">Chatea</button>
+          </div>
+        </div>
+        <div class="trip-card">
+          <img src="assets/trip-3.jpg">
+          <div class="trip-details">
+            <p>finca por apartamento</p>
+              <div class="price"><span>De:</span>Anapoima</div>
+              <button class="book-now">Chatea</button>
+          </div>
+        </div><div class="trip-card">
+          <img src="assets/trip-3.jpg">
+          <div class="trip-details">
+            <p>computador de mesa por celular</p>
+              <div class="price"><span>De:</span>Teusaquillo</div>
+              <button class="book-now">Chatea</button>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+        <div class="gallery-content">
+          <div>
+            <h2 class="section-title">
+              Realiza trueques coerentes
+            </h2>
+            <p class="section-subtitle">
+             Recuerda que los cambios realizados no podran ser reversibles a menos que llgeun a un acuerdo
             </p>
-
-            <!--ul (li) sirve para crear listas-->
-            <ul>
-                <li>tengo hambre</li>
-                <li>tengo hambre2</li>
-                <li>tengo hambre3</li>
-            </ul>
-
-        </section>
-     <button>hola</button>
-
-        <section>
-
-
-
-
-        </section>
-
-
-
-        <section>
-
-
-
-        </section>
-
-
-
-    </body>
-
-
-
-
+            <button class="btn">¡NECESITO AYUDA!</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br><br><br><br><br><br><br>
+        <div class="subscribe-form">
+          <form action="#">
+            <input type="email" placeholder="Danos tu sugurencia">
+            <button class="btn" type="submit">Enviar</button>
+          </form>
+        </div>>
+</div>
+<div class="containerfooter">
+<li>  mi proyecto he usado mis conociemientos previos en el sena con mi tecnologo en desarollo de sofware hecho en diseño de metrologia</li>
+<br>
+<li> hecho uso de las insatalciones de la unoversidad para el desarollo de esta pagina</li>
+</div>
+  <footer class="footer">
+    <div class="section-container footer-container">
+      <div class="footer-col">
+        <h3>Trueques<span>.</span></h3>
+        <p>Trueques quiere dar una excelente experinecia</p>
+      </div>
+      <div class="footer-col">
+        <h4>Intrgrantes de proyecto</h4>
+        <p>andres felipe contreras</p>
+        <p>1034576340</p>
+      </div>
+      <div class="footer-col">
+        <p>
+          <span>direccion:</span> Bogota
+        </p>
+        <p><span>Email:</span> afcontrerass@educacionbogota.edu.co</p>
+        <p><span>Phone:</span>3142310728</p>
+      </div>
+    </div>
+  </footer>
+</body>
 
 </html>
